@@ -1,9 +1,9 @@
 URL_LOGIN = "https://portal.easynvest.com.br/autenticacao/login"
-URL_RENDA_FIXA = "https://portal.easynvest.com.br/financascustodia/rendafixa/"
+URL_FIXED_INCOME = "https://portal.easynvest.com.br/financascustodia/rendafixa/"
 
-RENDA_FIXA = "renda_fixa"
+FIXED_INCOME = "fixed_income"
 
-COLUMNS_RENDA_FIXA = {
+COLUMNS_FIXED_INCOME = {
     "nome": "./td[1]/a/text()",
     "emissor": "./td[2]/text()",
     "quantidade": "./td[3]/text()",
